@@ -1,4 +1,284 @@
-"""
+[{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportMissingImports",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportMissingImports.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "Import \"streamlit\" could not be resolved",
+	"source": "Pylance",
+	"startLineNumber": 10,
+	"startColumn": 8,
+	"endLineNumber": 10,
+	"endColumn": 17,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportMissingImports",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportMissingImports.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "Import \"altair\" could not be resolved",
+	"source": "Pylance",
+	"startLineNumber": 13,
+	"startColumn": 8,
+	"endLineNumber": 13,
+	"endColumn": 14,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 770,
+	"startColumn": 23,
+	"endLineNumber": 770,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 773,
+	"startColumn": 23,
+	"endLineNumber": 773,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 1000,
+	"startColumn": 29,
+	"endLineNumber": 1000,
+	"endColumn": 45,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 1004,
+	"startColumn": 23,
+	"endLineNumber": 1004,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 1017,
+	"startColumn": 23,
+	"endLineNumber": 1017,
+	"endColumn": 39,
+	"origin": "extHost1"
+}][{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportMissingImports",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportMissingImports.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "Import \"streamlit\" could not be resolved",
+	"source": "Pylance",
+	"startLineNumber": 10,
+	"startColumn": 8,
+	"endLineNumber": 10,
+	"endColumn": 17,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportMissingImports",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportMissingImports.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "Import \"altair\" could not be resolved",
+	"source": "Pylance",
+	"startLineNumber": 13,
+	"startColumn": 8,
+	"endLineNumber": 13,
+	"endColumn": 14,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 770,
+	"startColumn": 23,
+	"endLineNumber": 770,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 773,
+	"startColumn": 23,
+	"endLineNumber": 773,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 1000,
+	"startColumn": 29,
+	"endLineNumber": 1000,
+	"endColumn": 45,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 1004,
+	"startColumn": 23,
+	"endLineNumber": 1004,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Projects/terpene_profiler_v1.3/app_v2_fixed.py",
+	"owner": "Pylance4",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pylance-release/blob/main/docs/diagnostics/reportUndefinedVariable.md",
+			"scheme": "https",
+			"authority": "github.com"
+		}
+	},
+	"severity": 8,
+	"message": "\"SYMPTOM_PROFILES\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 1017,
+	"startColumn": 23,
+	"endLineNumber": 1017,
+	"endColumn": 39,
+	"origin": "extHost1"
+}]"""
 Terpene Profile Recommender v2.1 - UI FIXES
 ===========================================
 Fixed issues:
@@ -474,198 +754,6 @@ hr {
 }
 </style>
 """, unsafe_allow_html=True)
-
-# Consumer-friendly symptom categories with entourage effect science
-SYMPTOM_PROFILES = {
-    "😴 Sleep & Relaxation": {
-        "icon": "😴",
-        "quick_desc": "Wind down, get restful sleep",
-        "customer_pitch": "Perfect for unwinding after a long day. These strains help quiet the mind and prepare your body for deep, restorative sleep.",
-        "science_note": "High myrcene + linalool with CBN creates the 'couch-lock' sedation. The entourage effect between these terpenes amplifies relaxation.",
-        "target_terpenes": {
-            "myrcene": {"weight": 1.0, "min": 0.003, "why": "Muscle relaxant, sedative"},
-            "linalool": {"weight": 0.9, "min": 0.005, "why": "Calming, anti-anxiety"},
-            "caryophyllene": {"weight": 0.5, "min": 0.003, "why": "Pain relief supports sleep"}
-        },
-        "target_cannabinoids": {
-            "cbn_percent": {"weight": 1.0, "min": 0.1, "why": "The 'sleepy cannabinoid'"},
-            "thc_percent": {"weight": 0.4, "preferred_range": (14, 22)},
-            "cbc_percent": {"weight": 0.3, "min": 0.1, "why": "Enhances sedation"}
-        },
-        "avoid_terpenes": ["limonene", "pinene", "terpinolene"],
-        "strain_type_preference": "Indica",
-        "best_time": "Evening / Night",
-        "onset": "15-30 minutes",
-        "duration": "3-6 hours"
-    },
-    
-    "😰 Anxiety & Stress Relief": {
-        "icon": "😰",
-        "quick_desc": "Calm nerves without heavy sedation",
-        "customer_pitch": "Take the edge off without feeling foggy. These strains provide a gentle calm that helps you stay functional while melting away tension.",
-        "science_note": "Linalool binds to GABA receptors (like how lavender works). CBD modulates THC's effects for a smoother, less anxious experience.",
-        "target_terpenes": {
-            "linalool": {"weight": 1.0, "min": 0.005, "why": "GABA receptor activity = calm"},
-            "limonene": {"weight": 0.7, "min": 0.003, "why": "Mood elevation, stress relief"},
-            "caryophyllene": {"weight": 0.8, "min": 0.004, "why": "CB2 receptor = anti-anxiety"}
-        },
-        "target_cannabinoids": {
-            "cbd_percent": {"weight": 0.9, "min": 0.5, "why": "Modulates THC, reduces paranoia"},
-            "thc_percent": {"weight": -0.2, "preferred_range": (8, 18)},
-            "cbc_percent": {"weight": 0.4, "min": 0.15, "why": "Anti-anxiety effects"}
-        },
-        "avoid_terpenes": ["terpinolene"],
-        "strain_type_preference": "Hybrid",
-        "best_time": "Anytime",
-        "onset": "10-20 minutes",
-        "duration": "2-4 hours"
-    },
-    
-    "💪 Energy & Focus": {
-        "icon": "💪",
-        "quick_desc": "Get motivated, stay sharp",
-        "customer_pitch": "Like a cup of coffee but smoother. Great for creative projects, cleaning the house, or when you need to power through tasks.",
-        "science_note": "Pinene counteracts THC's short-term memory effects. Limonene + terpinolene create that uplifting, 'get things done' feeling.",
-        "target_terpenes": {
-            "limonene": {"weight": 1.0, "min": 0.004, "why": "Energizing, mood boost"},
-            "pinene": {"weight": 0.9, "min": 0.003, "why": "Memory retention, alertness"},
-            "terpinolene": {"weight": 0.7, "min": 0.002, "why": "Uplifting, creative"}
-        },
-        "target_cannabinoids": {
-            "thc_percent": {"weight": 0.5, "preferred_range": (15, 22)},
-            "thcv_percent": {"weight": 0.8, "min": 0.1, "why": "Clear-headed, energetic high"},
-            "cbg_percent": {"weight": 0.5, "min": 0.3, "why": "Mental clarity, focus"}
-        },
-        "avoid_terpenes": ["myrcene"],
-        "strain_type_preference": "Sativa",
-        "best_time": "Morning / Afternoon",
-        "onset": "5-15 minutes",
-        "duration": "1-3 hours"
-    },
-    
-    "🎨 Creativity & Euphoria": {
-        "icon": "🎨",
-        "quick_desc": "Unlock creative flow, feel great",
-        "customer_pitch": "Perfect for artists, musicians, writers - or just having a really good time. These strains open up new perspectives and boost mood.",
-        "science_note": "Terpinolene + limonene create euphoric headspace. Moderate THC levels give that creative sweet spot without anxiety.",
-        "target_terpenes": {
-            "terpinolene": {"weight": 1.0, "min": 0.003, "why": "Euphoric, creative"},
-            "limonene": {"weight": 0.8, "min": 0.003, "why": "Mood elevation"},
-            "pinene": {"weight": 0.5, "min": 0.002, "why": "Mental clarity"}
-        },
-        "target_cannabinoids": {
-            "thc_percent": {"weight": 0.6, "preferred_range": (16, 24)}
-        },
-        "strain_type_preference": "Sativa",
-        "best_time": "Afternoon / Evening",
-        "onset": "5-15 minutes",
-        "duration": "2-4 hours"
-    },
-    
-    "🩹 Pain Management": {
-        "icon": "🩹",
-        "quick_desc": "Natural relief for aches & chronic pain",
-        "customer_pitch": "Whether it's back pain, arthritis, headaches, or chronic conditions - these strains target the body's pain pathways naturally.",
-        "science_note": "Caryophyllene is unique - it's the only terpene that directly activates CB2 receptors (like a cannabinoid!). Combined with myrcene's muscle relaxation, it's powerful for pain.",
-        "target_terpenes": {
-            "caryophyllene": {"weight": 1.0, "min": 0.005, "why": "CB2 agonist = anti-inflammatory"},
-            "myrcene": {"weight": 0.8, "min": 0.003, "why": "Muscle relaxant, analgesic"},
-            "humulene": {"weight": 0.5, "min": 0.001, "why": "Anti-inflammatory"}
-        },
-        "target_cannabinoids": {
-            "thc_percent": {"weight": 0.7, "preferred_range": (15, 28)},
-            "cbd_percent": {"weight": 0.6, "min": 0.5, "why": "Anti-inflammatory"},
-            "cbc_percent": {"weight": 0.8, "min": 0.2, "why": "Powerful pain relief"}
-        },
-        "strain_type_preference": "Hybrid",
-        "best_time": "As needed",
-        "onset": "15-30 minutes",
-        "duration": "3-5 hours"
-    },
-    
-    "🧠 Mood & Depression": {
-        "icon": "🧠",
-        "quick_desc": "Lift your spirits, break the fog",
-        "customer_pitch": "For those heavy days when you need a mental reset. These strains help brighten your outlook without making you feel disconnected.",
-        "science_note": "Limonene shows promise in studies for mood elevation - it's why citrus scents are used in aromatherapy. Combined with THC's dopamine release, it creates genuine uplift.",
-        "target_terpenes": {
-            "limonene": {"weight": 1.0, "min": 0.005, "why": "Mood elevation, anti-depressant"},
-            "pinene": {"weight": 0.6, "min": 0.002, "why": "Mental clarity"},
-            "terpinolene": {"weight": 0.5, "min": 0.002, "why": "Euphoric"}
-        },
-        "target_cannabinoids": {
-            "thc_percent": {"weight": 0.5, "preferred_range": (15, 22)}
-        },
-        "strain_type_preference": "Sativa",
-        "best_time": "Morning / Afternoon",
-        "onset": "10-20 minutes",
-        "duration": "2-4 hours"
-    },
-    
-    "🤢 Nausea & Appetite": {
-        "icon": "🤢",
-        "quick_desc": "Settle stomach, stimulate hunger",
-        "customer_pitch": "Whether from chemo, medications, or just not feeling hungry - these strains help calm nausea and bring back your appetite naturally.",
-        "science_note": "THC is well-established for appetite stimulation ('munchies' is real science). Myrcene helps with nausea, while caryophyllene calms digestive inflammation.",
-        "target_terpenes": {
-            "myrcene": {"weight": 0.9, "min": 0.004, "why": "Anti-nausea"},
-            "caryophyllene": {"weight": 0.7, "min": 0.003, "why": "GI anti-inflammatory"},
-            "limonene": {"weight": 0.5, "min": 0.002, "why": "Digestive support"}
-        },
-        "target_cannabinoids": {
-            "thc_percent": {"weight": 0.9, "preferred_range": (18, 28)},
-            "cbg_percent": {"weight": 0.6, "min": 0.1, "why": "Appetite stimulant"},
-            "cbc_percent": {"weight": 0.4, "min": 0.15, "why": "Digestive comfort"}
-        },
-        "strain_type_preference": "Indica",
-        "best_time": "Before meals",
-        "onset": "15-30 minutes",
-        "duration": "2-4 hours"
-    },
-    
-    "🔥 Inflammation & Autoimmune": {
-        "icon": "🔥",
-        "quick_desc": "Calm inflammatory conditions",
-        "customer_pitch": "For conditions like arthritis, Crohn's, fibromyalgia, or any inflammatory issue. High-CBD strains with anti-inflammatory terpenes.",
-        "science_note": "CBD + CBC + CBG have powerful anti-inflammatory effects through multiple pathways. Caryophyllene adds CB2-mediated relief without psychoactivity.",
-        "target_terpenes": {
-            "caryophyllene": {"weight": 1.0, "min": 0.005, "why": "CB2 = anti-inflammatory"},
-            "humulene": {"weight": 0.8, "min": 0.002, "why": "COX-2 inhibitor"},
-            "myrcene": {"weight": 0.5, "min": 0.003, "why": "General anti-inflammatory"}
-        },
-        "target_cannabinoids": {
-            "cbd_percent": {"weight": 1.0, "min": 3.0, "why": "Powerful anti-inflammatory"},
-            "thc_percent": {"weight": 0.3, "preferred_range": (5, 15)},
-            "cbc_percent": {"weight": 0.7, "min": 0.2, "why": "Synergistic anti-inflammatory"},
-            "cbg_percent": {"weight": 0.5, "min": 0.3, "why": "Additional anti-inflammatory"}
-        },
-        "strain_type_preference": "Hybrid",
-        "best_time": "As needed",
-        "onset": "30-60 minutes",
-        "duration": "4-6 hours"
-    },
-    
-    "⚡ Seizures & Neurological": {
-        "icon": "⚡",
-        "quick_desc": "High-CBD for neurological support",
-        "customer_pitch": "Medical-grade high-CBD strains for epilepsy and other neurological conditions. Minimal THC to avoid psychoactive effects.",
-        "science_note": "CBD's anti-epileptic properties are FDA-approved (Epidiolex). These strains maximize CBD while keeping THC low for clear-headed relief.",
-        "target_terpenes": {
-            "linalool": {"weight": 0.8, "min": 0.004, "why": "Neuroprotective, anticonvulsant"},
-            "caryophyllene": {"weight": 0.6, "min": 0.003, "why": "Neuroprotective"},
-            "myrcene": {"weight": 0.4, "min": 0.002, "why": "Muscle relaxation"}
-        },
-        "target_cannabinoids": {
-            "cbd_percent": {"weight": 1.0, "min": 8.0, "why": "Anticonvulsant"},
-            "thc_percent": {"weight": -0.8, "preferred_range": (0, 5)},
-            "cbdv_percent": {"weight": 0.9, "min": 0.05, "why": "Enhanced anticonvulsant effects"}
-        },
-        "strain_type_preference": "Sativa",
-        "best_time": "As directed by physician",
-        "onset": "30-60 minutes",
-        "duration": "4-8 hours"
-    }
-}
 
 # Detailed terpene encyclopedia  
 TERPENE_INFO = {
@@ -1304,16 +1392,9 @@ def main():
                     if dom_terp in TERPENE_INFO:
                         st.markdown(f"🌿 {TERPENE_INFO[dom_terp]['name']}")
                 
-                # Show quick details inline (avoiding nested expander issue)
-                st.markdown(f"""
-                <div style="background: rgba(26, 34, 52, 0.6); padding: 0.8rem; border-radius: 10px; margin: 0.3rem 0;">
-                    <small style="color: #94a3b8;">
-                    <strong>Effects:</strong> {strain.get('primary_effects', 'N/A')[:60]}... | 
-                    <strong>Dominant Terpene:</strong> {TERPENE_INFO.get(dom_terp, {}).get('name', 'N/A')} - {TERPENE_INFO.get(dom_terp, {}).get('vibe', '')}
-                    </small>
-                </div>
-                """, unsafe_allow_html=True)
-                st.markdown("---")
+                with st.expander("View Details"):
+                    strain['match_score'] = 0
+                    render_strain_card(strain, 0)
     
     # TAB 3: EDUCATION
     with tab_learn:
