@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
+from altair import Axis, Scale, Tooltip, X, Y, Color
 from typing import List, Dict, Tuple, Optional
 import os
 
@@ -937,18 +938,18 @@ def create_terpene_radar(strain: pd.Series) -> Optional[alt.Chart]:
         cornerRadiusEnd=6,
         height=20
     ).encode(
-        x=alt.X(shorthand='Percentage:Q', 
+        x=alt.X('Percentage:Q', 
                 title='Concentration (%)', 
                 scale=alt.Scale(domain=[0, max(df_chart['Percentage'].max() * 1.2, 1)])),
-        y=alt.Y(shorthand='Terpene:N', 
+        y=alt.Y('Terpene:N', 
                 title=None, 
                 sort='-x',
                 axis=alt.Axis(labelFontSize=12, labelFontWeight=500)),
-        color=alt.Color(shorthand='Color:N', scale=None, legend=None),
+        color=alt.Color('Color:N', scale=None, legend=None),
         tooltip=[
-            alt.Tooltip(shorthand='Terpene:N', title='Terpene'),
-            alt.Tooltip(shorthand='Percentage:Q', title='%', format='.3f'),
-            alt.Tooltip(shorthand='Vibe:N', title='Effect')
+            alt.Tooltip('Terpene:N', title='Terpene'),
+            alt.Tooltip('Percentage:Q', title='%', format='.3f'),
+            alt.Tooltip('Vibe:N', title='Effect')
         ]
     ).properties(
         height=180
