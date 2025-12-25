@@ -308,8 +308,19 @@ p, li, span {
 .streamlit-expanderHeader {
     background: var(--bg-card) !important;
     border-radius: 12px !important;
-    padding: 1rem !important;
+    padding: 1rem 1.25rem !important;
     margin-bottom: 0.5rem !important;
+    min-height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.streamlit-expanderHeader p {
+    margin: 0 !important;
+    line-height: 1.6 !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
 }
 
 .streamlit-expanderContent {
@@ -509,6 +520,25 @@ hr {
     overflow: visible !important;
     white-space: normal !important;
     word-wrap: break-word !important;
+    min-height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.75rem 1rem !important;
+}
+
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary div {
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+/* Fix for any svg icons in expander headers */
+[data-testid="stExpander"] summary svg {
+    flex-shrink: 0 !important;
+    margin-right: 0.5rem !important;
 }
 
 /* Column text alignment and spacing */
@@ -1224,7 +1254,9 @@ def main():
                 st.markdown(f"**🚀 Onset:** {profile['onset']}")
             with col3:
                 st.markdown(f"**⏱️ Duration:** {profile['duration']}")
-            
+
+            st.markdown("<br>", unsafe_allow_html=True)
+
             # Science note
             with st.expander("🔬 The Science (for curious customers)", expanded=False):
                 st.markdown(f"""
@@ -1302,6 +1334,9 @@ def main():
                     dom_terp = strain.get('dominant_terpene', 'N/A')
                     if dom_terp in TERPENE_INFO:
                         st.markdown(f"🌿 {TERPENE_INFO[dom_terp]['name']}")
+
+                # Add spacing after columns before expander
+                st.markdown("<div style='margin-top: 0.5rem;'></div>", unsafe_allow_html=True)
 
                 # Expandable details on separate row to prevent overlap
                 with st.expander("📋 View Details"):

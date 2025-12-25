@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(dir:*)",
-      "Bash(python -m py_compile:*)"
+      "Bash(python -m py_compile:*)",
+      "Bash(timeout 10 streamlit run:*)",
+      "Bash(streamlit:*)",
+      "Bash(python -c:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)"
     ]
   }
 }
