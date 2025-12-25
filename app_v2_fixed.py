@@ -913,7 +913,7 @@ def search_strains(df: pd.DataFrame, query: str) -> pd.DataFrame:
 # VISUALIZATION
 # ============================================================================
 
-def create_terpene_radar(strain: pd.Series) -> alt.Chart:
+def create_terpene_radar(strain: pd.Series) -> Optional[alt.Chart]:
     """Create terpene profile visualization"""
     terp_cols = ['myrcene', 'limonene', 'caryophyllene', 'linalool', 'pinene', 'humulene', 'terpinolene']
     
@@ -937,18 +937,18 @@ def create_terpene_radar(strain: pd.Series) -> alt.Chart:
         cornerRadiusEnd=6,
         height=20
     ).encode(
-        x=alt.X('Percentage:Q', 
+        x=alt.X(shorthand='Percentage:Q', 
                 title='Concentration (%)', 
                 scale=alt.Scale(domain=[0, max(df_chart['Percentage'].max() * 1.2, 1)])),
-        y=alt.Y('Terpene:N', 
+        y=alt.Y(shorthand='Terpene:N', 
                 title=None, 
                 sort='-x',
                 axis=alt.Axis(labelFontSize=12, labelFontWeight=500)),
-        color=alt.Color('Color:N', scale=None, legend=None),
+        color=alt.Color(shorthand='Color:N', scale=None, legend=None),
         tooltip=[
-            alt.Tooltip('Terpene:N', title='Terpene'),
-            alt.Tooltip('Percentage:Q', title='%', format='.3f'),
-            alt.Tooltip('Vibe:N', title='Effect')
+            alt.Tooltip(shorthand='Terpene:N', title='Terpene'),
+            alt.Tooltip(shorthand='Percentage:Q', title='%', format='.3f'),
+            alt.Tooltip(shorthand='Vibe:N', title='Effect')
         ]
     ).properties(
         height=180
