@@ -1,0 +1,101 @@
+strain_name,thc_percent,cbd_percent,cbn_percent,myrcene,limonene,caryophyllene,linalool,pinene,humulene,terpinolene,ocimene,sample_count,data_source,lab_sources
+Blue Dream,2.1,0.16,0.1,0.0072,0.001,0.0058,0.0082,0.0074,0.0043,0.0007,0.0,425,Lab-Aggregated (425 samples),"Analytical 360, PSI Labs, SC Labs"
+Dutch Treat,1.4,0.15,0.1,0.0037,0.0144,0.0038,0.0155,0.0019,0.0041,0.0035,0.0011,273,Lab-Aggregated (273 samples),"Analytical 360, SC Labs"
+Harlequin,0.9,0.83,0.15,0.0043,0.0018,0.0028,0.0092,0.0031,0.0025,0.0003,0.0005,188,Lab-Aggregated (188 samples),"Analytical 360, SC Labs"
+Girl Scout Cookies,3.4,0.22,0.13,0.003,0.0015,0.0091,0.0067,0.0042,0.0104,0.0003,0.0,166,Lab-Aggregated (166 samples),"Analytical 360, PSI Labs, SC Labs"
+Super Lemon Haze,3.1,0.14,0.13,0.0045,0.0094,0.0113,0.0095,0.0039,0.0061,0.0101,0.0256,137,Lab-Aggregated (137 samples),"Analytical 360, PSI Labs, SC Labs"
+Sour Diesel,4.2,0.15,0.17,0.0066,0.0051,0.009,0.0076,0.0068,0.0123,0.0007,0.0001,137,Lab-Aggregated (137 samples),"Analytical 360, PSI Labs, SC Labs"
+OG Kush,4.2,0.2,0.24,0.0033,0.002,0.0062,0.0066,0.0039,0.0107,0.0009,0.0004,135,Lab-Aggregated (135 samples),"Analytical 360, PSI Labs, SC Labs"
+Green Crack,3.1,0.12,0.19,0.0059,0.0023,0.0053,0.0084,0.0073,0.0048,0.0005,0.0008,133,Lab-Aggregated (133 samples),"Analytical 360, PSI Labs, SC Labs"
+Grape Ape,2.3,0.13,0.16,0.0107,0.0015,0.0056,0.0058,0.0082,0.0056,0.0003,0.0112,120,Lab-Aggregated (120 samples),"Analytical 360, PSI Labs, SC Labs"
+Cinex,0.7,0.12,0.07,0.0014,0.0015,0.0038,0.0055,0.0031,0.0104,0.0001,0.0001,113,Lab-Aggregated (113 samples),Analytical 360
+Gorilla Glue #4,9.1,0.12,0.09,0.002,0.0024,0.0077,0.001,0.0042,0.0116,0.0002,0.0,112,Lab-Aggregated (112 samples),"Analytical 360, PSI Labs, SC Labs"
+Blackberry Kush,3.0,0.13,0.11,0.0036,0.0017,0.0048,0.0084,0.0035,0.0077,0.0002,0.0,110,Lab-Aggregated (110 samples),"Analytical 360, PSI Labs, SC Labs"
+Blueberry,2.5,0.14,0.13,0.0057,0.0007,0.0057,0.0093,0.0043,0.0054,0.0015,0.0001,109,Lab-Aggregated (109 samples),"Analytical 360, PSI Labs, SC Labs"
+RSO,44.8,2.67,0.71,0.0007,0.0027,0.008,0.0012,0.0058,0.0114,0.0008,0.0,109,Lab-Aggregated (109 samples),"Analytical 360, PSI Labs, SC Labs"
+White Widow,2.0,0.28,0.16,0.0048,0.0021,0.0054,0.0138,0.0026,0.0071,0.0006,0.0001,107,Lab-Aggregated (107 samples),"Analytical 360, PSI Labs"
+Jack Herer,1.8,0.12,0.14,0.005,0.0064,0.0082,0.0127,0.0043,0.0055,0.0122,0.0005,101,Lab-Aggregated (101 samples),"Analytical 360, PSI Labs, SC Labs"
+Pineapple Express,2.1,0.23,0.1,0.0098,0.0027,0.0083,0.011,0.0144,0.0085,0.001,0.0001,100,Lab-Aggregated (100 samples),"Analytical 360, PSI Labs, SC Labs"
+Bubba Kush,1.5,0.1,0.22,0.0025,0.0022,0.0054,0.0083,0.0025,0.0129,0.0003,0.0,96,Lab-Aggregated (96 samples),"Analytical 360, SC Labs"
+Super Silver Haze,1.3,0.09,0.12,0.0045,0.0037,0.0056,0.0103,0.0022,0.0045,0.0011,0.0005,94,Lab-Aggregated (94 samples),"Analytical 360, SC Labs"
+Chernobyl,1.5,0.14,0.11,0.0023,0.0054,0.0051,0.004,0.0049,0.0062,0.0019,0.0001,90,Lab-Aggregated (90 samples),"Analytical 360, PSI Labs, SC Labs"
+Tahoe OG,2.4,0.12,0.17,0.0034,0.0016,0.0049,0.0087,0.0059,0.0083,0.0003,0.0,85,Lab-Aggregated (85 samples),"Analytical 360, PSI Labs, SC Labs"
+Purple Kush,1.7,0.12,0.14,0.0044,0.0019,0.006,0.0062,0.0047,0.0069,0.0003,0.0004,84,Lab-Aggregated (84 samples),"Analytical 360, PSI Labs, SC Labs"
+Permafrost,2.3,0.18,0.22,0.0034,0.0034,0.0064,0.009,0.0041,0.0049,0.0005,0.0,83,Lab-Aggregated (83 samples),"Analytical 360, PSI Labs"
+Cherry Pie,5.2,0.12,0.13,0.0054,0.0017,0.0081,0.0041,0.0038,0.0082,0.0002,0.0003,80,Lab-Aggregated (80 samples),"Analytical 360, PSI Labs, SC Labs"
+Cannatonic,1.8,3.73,0.26,0.0063,0.0013,0.0028,0.0083,0.0033,0.0039,0.0002,0.0,79,Lab-Aggregated (79 samples),"Analytical 360, PSI Labs, SC Labs"
+Gorilla Glue,9.2,0.07,0.06,0.0048,0.0066,0.012,0.0013,0.006,0.0114,0.0005,0.0,77,Lab-Aggregated (77 samples),"Analytical 360, PSI Labs, SC Labs"
+Sour Tsunami,0.3,0.95,0.14,0.004,0.0031,0.0032,0.003,0.0012,0.003,0.0014,0.001,77,Lab-Aggregated (77 samples),"Analytical 360, SC Labs"
+Cotton Candy,3.2,0.21,0.19,0.0018,0.0013,0.0041,0.0062,0.0037,0.009,0.0004,0.0004,73,Lab-Aggregated (73 samples),Analytical 360
+Trainwreck,3.6,0.16,0.24,0.0074,0.0047,0.0091,0.0097,0.0065,0.0069,0.0116,0.0268,69,Lab-Aggregated (69 samples),"Analytical 360, PSI Labs, SC Labs"
+AK-47,0.7,0.12,0.08,0.0055,0.0007,0.0044,0.0106,0.0029,0.0056,0.0002,0.0004,66,Lab-Aggregated (66 samples),"Analytical 360, SC Labs"
+Master Kush,2.8,0.09,0.13,0.0025,0.0049,0.0048,0.0106,0.0045,0.0079,0.0003,0.0,65,Lab-Aggregated (65 samples),"Analytical 360, PSI Labs, SC Labs"
+Girl Scout Cookie,4.8,0.12,0.08,0.0041,0.0022,0.007,0.0068,0.005,0.0089,0.0004,0.0,64,Lab-Aggregated (64 samples),"Analytical 360, PSI Labs, SC Labs"
+Afgoo,2.4,0.26,0.11,0.0092,0.0009,0.0041,0.0097,0.0039,0.0044,0.0002,0.0012,64,Lab-Aggregated (64 samples),"Analytical 360, SC Labs"
+Chocolope,2.2,0.09,0.08,0.0039,0.0014,0.0061,0.0074,0.0025,0.0042,0.0001,0.0,63,Lab-Aggregated (63 samples),"Analytical 360, PSI Labs, SC Labs"
+Northern Lights,3.6,0.22,0.22,0.005,0.0009,0.0056,0.0111,0.0036,0.0068,0.0006,0.0007,60,Lab-Aggregated (60 samples),"Analytical 360, PSI Labs, SC Labs"
+ATF,2.7,0.13,0.19,0.003,0.0004,0.0064,0.0086,0.0034,0.0092,0.0011,0.0002,56,Lab-Aggregated (56 samples),Analytical 360
+Grapefruit,2.3,0.14,0.14,0.0039,0.0019,0.005,0.0052,0.0016,0.0077,0.0007,0.0,56,Lab-Aggregated (56 samples),"Analytical 360, SC Labs"
+Durban Poison,6.8,0.22,0.14,0.0024,0.0059,0.0056,0.0046,0.0022,0.0072,0.0104,0.0002,54,Lab-Aggregated (54 samples),"Analytical 360, PSI Labs, SC Labs"
+Lavender,2.1,0.13,0.15,0.0035,0.0032,0.0044,0.0067,0.0051,0.0053,0.0012,0.0006,53,Lab-Aggregated (53 samples),"Analytical 360, PSI Labs, SC Labs"
+Plushberry,2.3,0.1,0.07,0.0056,0.0024,0.0051,0.0112,0.0049,0.0029,0.0011,0.0,53,Lab-Aggregated (53 samples),"Analytical 360, PSI Labs"
+Headband,7.3,0.16,0.11,0.0092,0.0072,0.0126,0.0053,0.0042,0.0106,0.001,0.0001,53,Lab-Aggregated (53 samples),"Analytical 360, PSI Labs, SC Labs"
+Blue Cheese,0.8,0.16,0.06,0.0047,0.0042,0.0049,0.0116,0.005,0.0057,0.0008,0.0002,52,Lab-Aggregated (52 samples),"Analytical 360, PSI Labs, SC Labs"
+Remedy,1.3,2.55,0.15,0.0032,0.0003,0.0021,0.0065,0.0017,0.0006,0.0002,0.0,52,Lab-Aggregated (52 samples),Analytical 360
+Ace of Spades,0.8,0.11,0.08,0.0059,0.0035,0.0045,0.0105,0.0046,0.0048,0.0014,0.0,49,Lab-Aggregated (49 samples),"Analytical 360, PSI Labs"
+The White,2.4,0.14,0.06,0.0023,0.0011,0.006,0.0025,0.0056,0.0063,0.0005,0.0,49,Lab-Aggregated (49 samples),"Analytical 360, PSI Labs, SC Labs"
+God Bud,0.7,0.11,0.13,0.0029,0.0016,0.0037,0.0127,0.0031,0.0035,0.0005,0.0,49,Lab-Aggregated (49 samples),Analytical 360
+Purple Arrow,0.9,0.15,0.19,0.0025,0.0001,0.0089,0.0087,0.005,0.0026,0.0009,0.0,49,Lab-Aggregated (49 samples),Analytical 360
+Lemon Skunk,1.7,0.09,0.1,0.002,0.0055,0.0078,0.0141,0.0013,0.0059,0.0023,0.0,48,Lab-Aggregated (48 samples),"Analytical 360, PSI Labs, SC Labs"
+Platinum Girl Scout Cookies,1.4,0.09,0.16,0.0021,0.0013,0.0076,0.014,0.0061,0.0129,0.0002,0.0,48,Lab-Aggregated (48 samples),"Analytical 360, PSI Labs, SC Labs"
+Cynex,0.6,0.11,0.05,0.001,0.0006,0.0043,0.0148,0.0042,0.0105,0.0005,0.0,48,Lab-Aggregated (48 samples),Analytical 360
+Cheese,2.4,0.12,0.06,0.0037,0.0032,0.0092,0.0099,0.0045,0.0081,0.0008,0.0,48,Lab-Aggregated (48 samples),"Analytical 360, PSI Labs, SC Labs"
+BHO Blue Dream,6.4,0.49,0.21,0.0029,0.0049,0.017,0.0427,0.0141,0.0085,0.0021,0.0,47,Lab-Aggregated (47 samples),Analytical 360
+Bubble Gum,2.8,0.12,0.09,0.0075,0.0029,0.0055,0.0085,0.004,0.0095,0.0003,0.0002,46,Lab-Aggregated (46 samples),"Analytical 360, PSI Labs, SC Labs"
+Blackberry,1.1,0.14,0.08,0.0041,0.0002,0.0052,0.0072,0.0035,0.0057,0.0,0.0,44,Lab-Aggregated (44 samples),"Analytical 360, PSI Labs"
+Romulan,0.8,0.12,0.16,0.0047,0.0002,0.0053,0.0084,0.0026,0.012,0.0009,0.0,44,Lab-Aggregated (44 samples),"Analytical 360, PSI Labs"
+White Rhino,0.9,0.14,0.16,0.0047,0.0043,0.0043,0.0092,0.0023,0.0066,0.0015,0.0,43,Lab-Aggregated (43 samples),Analytical 360
+Strawberry Cough,1.1,0.1,0.08,0.0246,0.0032,0.0059,0.0117,0.0113,0.0041,0.0012,0.0259,42,Lab-Aggregated (42 samples),"Analytical 360, PSI Labs, SC Labs"
+Jack the Ripper,1.3,0.14,0.1,0.0019,0.0066,0.0038,0.009,0.0033,0.0041,0.0038,0.0004,42,Lab-Aggregated (42 samples),"Analytical 360, SC Labs"
+Grand Daddy Purple,3.7,0.1,0.15,0.0188,0.0028,0.0088,0.0068,0.0135,0.0076,0.0002,0.0076,42,Lab-Aggregated (42 samples),"Analytical 360, PSI Labs, SC Labs"
+Critical Mass,1.5,0.77,0.09,0.0035,0.0,0.0043,0.0076,0.0027,0.0074,0.0005,0.0,41,Lab-Aggregated (41 samples),Analytical 360
+Black Cherry Soda,0.6,0.14,0.16,0.0021,0.0012,0.0046,0.0041,0.0016,0.0033,0.0007,0.0,41,Lab-Aggregated (41 samples),Analytical 360
+XJ-13,1.2,0.1,0.02,0.0013,0.0082,0.0054,0.0087,0.001,0.004,0.0039,0.0012,41,Lab-Aggregated (41 samples),"Analytical 360, SC Labs"
+Agent Orange,3.5,0.09,0.08,0.0052,0.0008,0.0021,0.0018,0.0011,0.0027,0.0007,0.0,40,Lab-Aggregated (40 samples),"Analytical 360, PSI Labs"
+GDP,4.4,0.11,0.19,0.0056,0.0012,0.0041,0.0079,0.0065,0.0052,0.0001,0.0009,40,Lab-Aggregated (40 samples),"Analytical 360, SC Labs"
+ACDC,1.1,5.19,0.08,0.0219,0.002,0.004,0.0,0.0185,0.0023,0.0015,0.0,39,Lab-Aggregated (39 samples),"Analytical 360, PSI Labs, SC Labs"
+Kimbo Kush,0.7,0.13,0.01,0.0007,0.0007,0.005,0.002,0.0012,0.0052,0.0,0.0,39,Lab-Aggregated (39 samples),"Analytical 360, PSI Labs, SC Labs"
+Hawaiian Dutch,0.9,0.16,0.49,0.009,0.0022,0.0024,0.0124,0.0008,0.003,0.0007,0.0,38,Lab-Aggregated (38 samples),Analytical 360
+LA Confidential,2.5,0.1,0.06,0.0024,0.0036,0.005,0.014,0.0051,0.0097,0.0,0.0001,38,Lab-Aggregated (38 samples),"Analytical 360, PSI Labs, SC Labs"
+AC/DC,0.6,0.76,0.15,0.0068,0.0016,0.0036,0.0011,0.0027,0.0023,0.0009,0.0007,37,Lab-Aggregated (37 samples),"Analytical 360, SC Labs"
+Blue Rhino,2.4,0.19,0.18,0.0042,0.0056,0.0056,0.0122,0.004,0.0027,0.0008,0.0,36,Lab-Aggregated (36 samples),"Analytical 360, PSI Labs"
+White Russian,1.2,0.12,0.08,0.0038,0.0025,0.004,0.0095,0.0027,0.0051,0.0017,0.0004,36,Lab-Aggregated (36 samples),Analytical 360
+Purple Urkle,0.7,0.08,0.16,0.0056,0.0035,0.0039,0.0093,0.0065,0.0076,0.0009,0.0,35,Lab-Aggregated (35 samples),"Analytical 360, SC Labs"
+Pineapple Chunk,4.2,0.15,0.1,0.0034,0.0018,0.0085,0.0114,0.0034,0.0066,0.0023,0.0,34,Lab-Aggregated (34 samples),"Analytical 360, PSI Labs, SC Labs"
+Tangerine Dream,5.8,0.15,0.37,0.0041,0.0119,0.0036,0.0125,0.0044,0.0045,0.0008,0.0,34,Lab-Aggregated (34 samples),"Analytical 360, PSI Labs"
+Sour OG,2.1,0.1,0.08,0.0023,0.0008,0.0047,0.0078,0.0057,0.0115,0.0005,0.0,34,Lab-Aggregated (34 samples),"Analytical 360, PSI Labs, SC Labs"
+Grape God,3.1,0.2,0.1,0.0059,0.002,0.0082,0.0123,0.0039,0.0047,0.0011,0.0001,34,Lab-Aggregated (34 samples),Analytical 360
+Sensi Star,1.4,0.14,0.12,0.0091,0.0083,0.008,0.0116,0.0059,0.0089,0.01,0.04,34,Lab-Aggregated (34 samples),"Analytical 360, PSI Labs"
+Chem Dawg,4.4,0.1,0.02,0.0046,0.0051,0.0076,0.0041,0.0041,0.0091,0.0017,0.0,33,Lab-Aggregated (33 samples),"Analytical 360, PSI Labs, SC Labs"
+LSD,2.8,0.16,0.08,0.0025,0.0033,0.0059,0.0032,0.0026,0.0053,0.0042,0.0,33,Lab-Aggregated (33 samples),"Analytical 360, PSI Labs, SC Labs"
+Skywalker OG,3.8,0.04,0.03,0.0075,0.0036,0.0049,0.0086,0.0038,0.0064,0.0004,0.0001,33,Lab-Aggregated (33 samples),"Analytical 360, PSI Labs, SC Labs"
+Snoop’s Dream,1.6,0.15,0.04,0.0046,0.0022,0.0047,0.0036,0.0062,0.0042,0.0011,0.0,33,Lab-Aggregated (33 samples),Analytical 360
+Purple Diesel,1.2,0.16,0.14,0.0062,0.0025,0.0049,0.008,0.0063,0.0095,0.0003,0.0,32,Lab-Aggregated (32 samples),"Analytical 360, PSI Labs, SC Labs"
+Albert Walker,0.6,0.15,0.05,0.0014,0.0082,0.0045,0.0147,0.0042,0.0051,0.0012,0.0,32,Lab-Aggregated (32 samples),Analytical 360
+Dairy Queen,0.7,0.14,0.1,0.0034,0.0096,0.0075,0.0081,0.003,0.0036,0.0004,0.0,31,Lab-Aggregated (31 samples),Analytical 360
+Lemon OG,1.8,0.12,0.07,0.003,0.0028,0.0081,0.0049,0.0042,0.007,0.0004,0.0002,31,Lab-Aggregated (31 samples),"Analytical 360, PSI Labs, SC Labs"
+True OG,4.6,0.18,0.18,0.0038,0.0018,0.0072,0.0026,0.0047,0.0095,0.0014,0.0,31,Lab-Aggregated (31 samples),"Analytical 360, SC Labs"
+Fire OG,5.7,0.08,0.06,0.0047,0.0038,0.0061,0.0046,0.0031,0.0065,0.0002,0.0001,31,Lab-Aggregated (31 samples),"Analytical 360, PSI Labs, SC Labs"
+BHO Dutch Treat,5.0,0.44,0.4,0.0022,0.02,0.0113,0.0826,0.0071,0.0069,0.0044,0.0,31,Lab-Aggregated (31 samples),Analytical 360
+Maui Wowie,0.7,0.14,0.07,0.006,0.007,0.0055,0.0206,0.0044,0.0091,0.0023,0.0,30,Lab-Aggregated (30 samples),Analytical 360
+Blue Magoo,0.9,0.2,0.11,0.0032,0.0008,0.0039,0.0076,0.0068,0.0089,0.0004,0.0,30,Lab-Aggregated (30 samples),Analytical 360
+Royal Kush,2.0,0.12,0.08,0.009,0.0004,0.0031,0.0034,0.0058,0.0088,0.0,0.0017,28,Lab-Aggregated (28 samples),"Analytical 360, SC Labs"
+Blue City Diesel,1.0,0.16,0.11,0.0045,0.0016,0.0062,0.0076,0.0047,0.008,0.0004,0.0004,28,Lab-Aggregated (28 samples),Analytical 360
+Granddaddy Purple,5.3,0.11,0.37,0.0317,0.0025,0.0112,0.0133,0.0128,0.0081,0.0008,0.0145,28,Lab-Aggregated (28 samples),"Analytical 360, PSI Labs, SC Labs"
+Hindu Kush,5.4,0.15,0.06,0.002,0.0029,0.0054,0.0047,0.0033,0.0112,0.0007,0.0,27,Lab-Aggregated (27 samples),"Analytical 360, PSI Labs, SC Labs"
+Jilly Bean,1.2,0.09,0.07,0.0047,0.0008,0.0022,0.0042,0.0011,0.0032,0.0008,0.0004,27,Lab-Aggregated (27 samples),"Analytical 360, PSI Labs, SC Labs"
+Querkle,0.6,0.12,0.07,0.0056,0.0034,0.0047,0.005,0.004,0.0041,0.0008,0.0,27,Lab-Aggregated (27 samples),Analytical 360
+Black Jack,1.0,0.06,0.05,0.0032,0.0013,0.005,0.0059,0.0018,0.0038,0.0035,0.0019,27,Lab-Aggregated (27 samples),"Analytical 360, SC Labs"
+Pineapple,1.4,0.14,0.05,0.0032,0.0034,0.0058,0.0108,0.0029,0.0055,0.0009,0.0018,26,Lab-Aggregated (26 samples),"Analytical 360, SC Labs"
+Tangie,20.8,0.08,0.46,0.0096,0.0382,0.0072,0.0052,0.0112,0.0028,0.0018,0.0001,25,Lab-Aggregated (25 samples),"Analytical 360, PSI Labs, SC Labs"
+Animal Cookies,0.9,0.08,0.04,0.0015,0.0016,0.0067,0.0006,0.0062,0.0077,0.0,0.0,25,Lab-Aggregated (25 samples),"Analytical 360, SC Labs"
