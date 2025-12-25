@@ -934,22 +934,22 @@ def create_terpene_radar(strain: pd.Series) -> Optional[alt.Chart]:
     df_chart = pd.DataFrame(data)
     df_chart = df_chart.sort_values('Percentage', ascending=True)
     
-    chart = alt.Chart(df_chart).mark_bar(
-        cornerRadiusEnd=6,
-        height=20
+    chart = alt.Chart(df_chart).mark_bar(  # type: ignore
+        cornerRadiusEnd=6,  # type: ignore
+        height=20  # type: ignore
     ).encode(
-        x=alt.X('Percentage:Q', 
-                title='Concentration (%)', 
-                scale=alt.Scale(domain=[0, max(df_chart['Percentage'].max() * 1.2, 1)])),
-        y=alt.Y('Terpene:N', 
-                title=None, 
-                sort='-x',
-                axis=alt.Axis(labelFontSize=12, labelFontWeight=500)),
-        color=alt.Color('Color:N', scale=None, legend=None),
+        x=alt.X('Percentage:Q',  # type: ignore
+                title='Concentration (%)',  # type: ignore 
+                scale=alt.Scale(domain=[0, max(df_chart['Percentage'].max() * 1.2, 1)])),  # type: ignore
+        y=alt.Y('Terpene:N',  # type: ignore
+                title=None,  # type: ignore 
+                sort='-x',  # type: ignore
+                axis=alt.Axis(labelFontSize=12, labelFontWeight=500)),  # type: ignore
+        color=alt.Color('Color:N', scale=None, legend=None),  # type: ignore
         tooltip=[
-            alt.Tooltip('Terpene:N', title='Terpene'),
-            alt.Tooltip('Percentage:Q', title='%', format='.3f'),
-            alt.Tooltip('Vibe:N', title='Effect')
+            alt.Tooltip('Terpene:N', title='Terpene'),  # type: ignore
+            alt.Tooltip('Percentage:Q', title='%', format='.3f'),  # type: ignore
+            alt.Tooltip('Vibe:N', title='Effect')  # type: ignore
         ]
     ).properties(
         height=180
