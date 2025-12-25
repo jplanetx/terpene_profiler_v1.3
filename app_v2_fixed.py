@@ -544,6 +544,130 @@ TERPENE_INFO = {
     }
 }
 
+# Symptom profiles and recommendation criteria
+SYMPTOM_PROFILES = {
+    "need Sleep": {
+        "icon": "😴",
+        "customer_pitch": "Looking for deep, restorative sleep? We have strains designed to help you drift off and stay asleep.",
+        "best_time": "Evening/Bedtime",
+        "onset": "30-60 minutes",
+        "duration": "6-8 hours",
+        "science_note": "High myrcene and linalool activate sedative pathways. CBN (aged THC) enhances sleep onset. Limonene counteracts any anxiety.",
+        "target_terpenes": {
+            "myrcene": {"weight": 0.3, "min": 0.005},
+            "linalool": {"weight": 0.25, "min": 0.004},
+            "caryophyllene": {"weight": 0.15, "min": 0.003}
+        },
+        "target_cannabinoids": {
+            "thc_percent": {"weight": 0.3, "min": 10},
+            "cbn_percent": {"weight": 0.2, "min": 0.5},
+            "cbd_percent": {"weight": 0.1, "preferred_range": (0.5, 3)}
+        },
+        "avoid_terpenes": ["pinene", "terpinolene"],
+        "strain_type_preference": "Indica"
+    },
+    "need Pain Relief": {
+        "icon": "💪",
+        "customer_pitch": "Chronic or acute pain getting you down? These strains combine THC, CBD, and anti-inflammatory terpenes for real relief.",
+        "best_time": "Anytime (symptom-dependent)",
+        "onset": "15-45 minutes",
+        "duration": "4-6 hours",
+        "science_note": "Caryophyllene activates CB2 receptors (anti-inflammatory). High THC blocks pain signals. CBD reduces inflammation without intoxication.",
+        "target_terpenes": {
+            "caryophyllene": {"weight": 0.35, "min": 0.004},
+            "myrcene": {"weight": 0.25, "min": 0.005},
+            "humulene": {"weight": 0.15, "min": 0.003}
+        },
+        "target_cannabinoids": {
+            "thc_percent": {"weight": 0.25, "min": 12},
+            "cbd_percent": {"weight": 0.25, "min": 0.8},
+            "cbc_percent": {"weight": 0.1, "min": 0.1}
+        },
+        "avoid_terpenes": [],
+        "strain_type_preference": "Indica"
+    },
+    "need Focus": {
+        "icon": "🧠",
+        "customer_pitch": "Need laser focus without the jitters? High-pinene, low-myrcene strains keep you clear-headed and motivated.",
+        "best_time": "Morning/Daytime",
+        "onset": "10-20 minutes",
+        "duration": "3-4 hours",
+        "science_note": "Pinene enhances memory and alertness while partially counteracting THC's memory effects. High THCV provides energizing, focused effects.",
+        "target_terpenes": {
+            "pinene": {"weight": 0.35, "min": 0.003},
+            "limonene": {"weight": 0.3, "min": 0.002},
+            "terpinolene": {"weight": 0.15, "min": 0.002}
+        },
+        "target_cannabinoids": {
+            "thc_percent": {"weight": 0.2, "preferred_range": (5, 15)},
+            "thcv_percent": {"weight": 0.2, "min": 0.3},
+            "cbd_percent": {"weight": 0.1, "preferred_range": (0, 2)}
+        },
+        "avoid_terpenes": ["myrcene"],
+        "strain_type_preference": "Sativa"
+    },
+    "need Anxiety Relief": {
+        "icon": "🧘",
+        "customer_pitch": "Anxious? These strains feature calming terpenes and CBD to ease racing thoughts without total sedation.",
+        "best_time": "Anytime (as needed)",
+        "onset": "20-40 minutes",
+        "duration": "4-5 hours",
+        "science_note": "Linalool and limonene modulate serotonin. CBD blocks anxiety-triggering signals. The combo prevents panic while keeping you functional.",
+        "target_terpenes": {
+            "linalool": {"weight": 0.3, "min": 0.004},
+            "limonene": {"weight": 0.3, "min": 0.003},
+            "myrcene": {"weight": 0.15, "min": 0.002}
+        },
+        "target_cannabinoids": {
+            "cbd_percent": {"weight": 0.4, "min": 1.0},
+            "thc_percent": {"weight": -0.2, "preferred_range": (0, 12)},
+            "cbn_percent": {"weight": 0.1, "min": 0.2}
+        },
+        "avoid_terpenes": ["pinene"],
+        "strain_type_preference": "Hybrid"
+    },
+    "need Creativity": {
+        "icon": "🎨",
+        "customer_pitch": "Creative block? These strains enhance divergent thinking and inspiration through unique terpene combinations.",
+        "best_time": "Daytime/Afternoon",
+        "onset": "15-30 minutes",
+        "duration": "3-5 hours",
+        "science_note": "Limonene elevates mood and dopamine. Terpinolene (rare) provides unique creative energy. Moderate THC enhances association-making.",
+        "target_terpenes": {
+            "limonene": {"weight": 0.3, "min": 0.003},
+            "terpinolene": {"weight": 0.25, "min": 0.001},
+            "ocimene": {"weight": 0.2, "min": 0.001}
+        },
+        "target_cannabinoids": {
+            "thc_percent": {"weight": 0.25, "preferred_range": (10, 18)},
+            "cbd_percent": {"weight": 0.1, "preferred_range": (0, 2)},
+            "thcv_percent": {"weight": 0.1, "min": 0.2}
+        },
+        "avoid_terpenes": [],
+        "strain_type_preference": "Sativa"
+    },
+    "need Appetite": {
+        "icon": "🍽️",
+        "customer_pitch": "Lost your appetite? THC + CBG combo triggers hunger signals. Perfect for medication side effects or recovery.",
+        "best_time": "Mealtime",
+        "onset": "20-45 minutes",
+        "duration": "4-6 hours",
+        "science_note": "THC directly stimulates hunger via CB1 receptors. CBG increases appetite hormones. Myrcene adds relaxation so eating is enjoyable.",
+        "target_terpenes": {
+            "myrcene": {"weight": 0.3, "min": 0.005},
+            "caryophyllene": {"weight": 0.2, "min": 0.003},
+            "humulene": {"weight": -0.1, "min": 0}
+        },
+        "target_cannabinoids": {
+            "thc_percent": {"weight": 0.35, "min": 12},
+            "cbg_percent": {"weight": 0.25, "min": 0.3},
+            "cbd_percent": {"weight": 0.1, "preferred_range": (0, 1)}
+        },
+        "avoid_terpenes": [],
+        "strain_type_preference": "Indica"
+    }
+}
+
 # Cannabinoid information
 CANNABINOID_INFO = {
     "thc_percent": {
