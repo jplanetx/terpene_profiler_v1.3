@@ -1335,16 +1335,20 @@ def main():
                     if dom_terp in TERPENE_INFO:
                         st.markdown(f"🌿 {TERPENE_INFO[dom_terp]['name']}")
 
-                # Add spacing after columns before expander
+                # Add spacing after columns before button
                 st.markdown("<div style='margin-top: 0.5rem;'></div>", unsafe_allow_html=True)
 
-                # Expandable details on separate row to prevent overlap
-                with st.expander("📋 View Details"):
+                # Button to view details (avoiding nested expander issue)
+                if st.button("View Full Details", key=f"view_btn_{idx}_{strain['strain_name'].replace(' ', '_')}", use_container_width=True):
+                    st.session_state[f'show_details_{idx}'] = not st.session_state.get(f'show_details_{idx}', False)
+
+                # Show details if button was clicked
+                if st.session_state.get(f'show_details_{idx}', False):
                     strain['match_score'] = 0
                     render_strain_card(strain, 0)
 
                 # Add spacing between strain items
-                st.markdown("<div style='margin-bottom: 0.5rem;'></div>", unsafe_allow_html=True)
+                st.markdown("<div style='margin-bottom: 1rem;'></div>", unsafe_allow_html=True)
     
     # TAB 3: EDUCATION
     with tab_learn:
