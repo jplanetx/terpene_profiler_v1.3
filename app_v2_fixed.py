@@ -201,13 +201,13 @@ p, li, span {
     border: none !important;
     border-radius: 12px !important;
     padding: 0.75rem 1.5rem !important;
-    font-weight: 700 !important;
-    font-size: 1rem !important;
+    font-weight: 800 !important; /* Extra bold for better readability */
+    font-size: 1.05rem !important; /* Slightly larger */
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     transition: all 0.2s ease !important;
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important; /* Subtle shadow for crispness */
-    letter-spacing: 0.02em !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important; /* Stronger shadow for contrast */
+    letter-spacing: 0.03em !important; /* More spacing for clarity */
 }
 
 .stButton > button:hover {
@@ -215,6 +215,14 @@ p, li, span {
     box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4) !important;
     background: linear-gradient(135deg, #34d399 0%, #10b981 100%) !important;
     color: #ffffff !important; /* Keep white on hover too */
+}
+
+/* Force all text elements in buttons to be white */
+.stButton > button p,
+.stButton > button span,
+.stButton > button div {
+    color: #ffffff !important;
+    font-weight: 800 !important;
 }
 
 .stButton > button:active {
