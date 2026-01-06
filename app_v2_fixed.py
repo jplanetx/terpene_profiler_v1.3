@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -937,7 +935,17 @@ def search_strains(df: pd.DataFrame, query: str) -> pd.DataFrame:
 # ============================================================================
 
 def create_terpene_radar(strain: pd.Series) -> Optional[alt.Chart]:
-    """Create terpene profile visualization"""
+    """
+    Build an Altair horizontal bar chart showing a strain's terpene concentrations.
+    
+    Only terpenes with a positive measured value are included; returns None when no terpene data is present.
+    
+    Parameters:
+        strain (pd.Series): A strain record containing terpene fraction values (e.g., 0.01 for 1%) keyed by terpene slugs such as 'myrcene', 'limonene', etc.
+    
+    Returns:
+        Optional[alt.Chart]: An Altair horizontal bar chart representing terpene percentages, colors, and effect "vibe", or `None` if the strain has no measured terpenes.
+    """
     terp_cols = ['myrcene', 'limonene', 'caryophyllene', 'linalool', 'pinene', 'humulene', 'terpinolene']
     
     data = []
@@ -987,7 +995,16 @@ def create_terpene_radar(strain: pd.Series) -> Optional[alt.Chart]:
     return chart
 
 def render_strain_card(strain: pd.Series, rank: int):
-    """Render strain recommendation card"""
+    """
+    Render a formatted Streamlit card displaying a strain recommendation, its scores, cannabinoid metrics, terpene visualization, effects, and source.
+    
+    Parameters:
+        strain (pd.Series): A row representing a strain. Expected keys used by this function include:
+            - 'strain_name', 'match_score', 'strain_type'
+            - cannabinoid percent fields: 'cbd_percent', 'cbn_percent', 'cbg_percent', 'thcv_percent', 'cbc_percent'
+            - 'dominant_terpene', 'primary_effects', 'medical_uses', 'data_source'
+        rank (int): The 1-based rank shown in the card header to indicate the strain's position in results.
+    """
     score = strain['match_score']
     
     # Score class
@@ -1093,6 +1110,21 @@ def render_strain_card(strain: pd.Series, rank: int):
 
 def main():
     # Load data
+    """
+    Render and run the StrainMatch Pro Streamlit application.
+    
+    Loads strain data, builds the app header and quick statistics, and presents three main tabs:
+    1) "Find By Need" — symptom-based recommendation engine that shows a customer pitch, science note,
+       and top strain matches computed from lab data and entourage heuristics.
+    2) "Browse All Strains" — searchable, filterable, and sortable strain library with compact summaries
+       and expanders for full strain details.
+    3) "Learn The Science" — educational reference sections for terpenes, cannabinoids, and the
+       entourage effect (includes mechanism notes and citations when available).
+    
+    Also renders the app footer and surface-level UI elements (search, filters, sort, metrics). The function
+    assumes strain data is available via load_strain_data() and relies on global data structures and helpers
+    (e.g., SYMPTOM_PROFILES, TERPENE_INFO, CANNABINOID_INFO, get_recommendations, render_strain_card).
+    """
     df = load_strain_data()
     
     # Header
