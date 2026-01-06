@@ -229,6 +229,18 @@ p, li, span {
     transform: translateY(0px) !important;
 }
 
+/* Hide button element IDs/keys that might show on hover */
+.stButton > button::before,
+.stButton > button::after {
+    content: none !important;
+}
+
+.stButton > button [data-testid],
+.stButton > button [id] {
+    display: inline !important;
+    visibility: visible !important;
+}
+
 /* ==================================================================
    FIX #2: PREVENT METRIC OVERLAP
    Proper spacing and min-heights
@@ -1355,10 +1367,11 @@ def main():
                         st.markdown(f"🌿 {TERPENE_INFO[dom_terp]['name']}")
 
                 # Add spacing after columns before button
-                st.markdown("<div style='margin-top: 0.5rem;'></div>", unsafe_allow_html=True)
+                st.markdown("<div style='margin-top: 1rem;'></div>", unsafe_allow_html=True)
 
                 # Button to view details (avoiding nested expander issue)
-                if st.button("View Full Details", key=f"view_btn_{idx}_{strain['strain_name'].replace(' ', '_')}", use_container_width=True):
+                # Using simplified key without strain name to avoid text overlap
+                if st.button("View Full Details", key=f"view_btn_{idx}", use_container_width=True):
                     st.session_state[f'show_details_{idx}'] = not st.session_state.get(f'show_details_{idx}', False)
 
                 # Show details if button was clicked
