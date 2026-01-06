@@ -201,13 +201,13 @@ p, li, span {
     border: none !important;
     border-radius: 12px !important;
     padding: 0.75rem 1.5rem !important;
-    font-weight: 700 !important;
-    font-size: 1rem !important;
+    font-weight: 800 !important; /* Extra bold for better readability */
+    font-size: 1.05rem !important; /* Slightly larger */
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     transition: all 0.2s ease !important;
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important; /* Subtle shadow for crispness */
-    letter-spacing: 0.02em !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important; /* Stronger shadow for contrast */
+    letter-spacing: 0.03em !important; /* More spacing for clarity */
 }
 
 .stButton > button:hover {
@@ -215,6 +215,14 @@ p, li, span {
     box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4) !important;
     background: linear-gradient(135deg, #34d399 0%, #10b981 100%) !important;
     color: #ffffff !important; /* Keep white on hover too */
+}
+
+/* Force all text elements in buttons to be white */
+.stButton > button p,
+.stButton > button span,
+.stButton > button div {
+    color: #ffffff !important;
+    font-weight: 800 !important;
 }
 
 .stButton > button:active {
@@ -308,8 +316,19 @@ p, li, span {
 .streamlit-expanderHeader {
     background: var(--bg-card) !important;
     border-radius: 12px !important;
-    padding: 1rem !important;
+    padding: 1rem 1.25rem !important;
     margin-bottom: 0.5rem !important;
+    min-height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.streamlit-expanderHeader p {
+    margin: 0 !important;
+    line-height: 1.6 !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
 }
 
 .streamlit-expanderContent {
@@ -465,6 +484,97 @@ hr {
     color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+/* ==================================================================
+   FIX #4: PREVENT CONTAINER AND TEXT OVERLAP
+   Better spacing and overflow handling
+   ================================================================== */
+.stContainer {
+    padding: 1rem 0 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Fix for strain list items in Browse tab */
+[data-testid="stHorizontalBlock"] {
+    gap: 1rem !important;
+    align-items: flex-start !important;
+    margin-bottom: 0.75rem !important;
+}
+
+/* Ensure markdown text doesn't overflow */
+.stMarkdown {
+    overflow: visible !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+.stMarkdown p, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4 {
+    overflow: visible !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100% !important;
+}
+
+/* Customer pitch section specific fixes */
+.explain-card p[style*="italic"] {
+    padding-right: 1rem !important;
+    line-height: 1.8 !important;
+    word-spacing: 0.05em !important;
+}
+
+/* Expander header text should not overflow */
+[data-testid="stExpander"] summary {
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    min-height: 3rem !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.75rem 1rem !important;
+}
+
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary div {
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+/* Fix for any svg icons in expander headers */
+[data-testid="stExpander"] summary svg {
+    flex-shrink: 0 !important;
+    margin-right: 0.5rem !important;
+}
+
+/* Column text alignment and spacing */
+[data-testid="column"] {
+    padding: 0 0.5rem !important;
+    min-height: 2.5rem !important;
+}
+
+/* Fix text in columns to prevent overlap */
+[data-testid="column"] .stMarkdown {
+    min-height: 2rem !important;
+    line-height: 1.6 !important;
+}
+
+/* Better spacing for text inside buttons and elements */
+.stButton button p {
+    margin: 0 !important;
+    line-height: 1.4 !important;
+}
+
+/* Tabs content area spacing */
+[data-testid="stTabs"] [data-baseweb="tab-panel"] {
+    padding-top: 1.5rem !important;
+}
+
+/* Prevent italic text from being cut off */
+em, i, [style*="font-style: italic"] {
+    padding-right: 0.2em !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -1163,9 +1273,9 @@ def main():
                 <p style="font-size: 1.1rem; color: #f8fafc !important; font-style: italic;">"{profile['customer_pitch']}"</p>
             </div>
             """, unsafe_allow_html=True)
-            
+
             # Quick info removed - best time, onset, duration vary too much by individual
-            
+
             # Science note
             with st.expander("🔬 The Science (for curious customers)", expanded=False):
                 st.markdown(f"""
@@ -1225,27 +1335,39 @@ def main():
         # Display strains
         for idx, strain in filtered_df.head(20).iterrows():
             with st.container():
+                # Main info row
                 col1, col2, col3, col4 = st.columns([3, 1, 1, 1])
-                
+
                 with col1:
                     strain_type = strain['strain_type']
                     type_icon = "🌙" if strain_type == "Indica" else "☀️" if strain_type == "Sativa" else "⚖️"
                     st.markdown(f"**{strain['strain_name']}** {type_icon}")
-                
+
                 with col2:
                     st.markdown(f"THC: {strain['thc_percent']:.1f}%")
-                
+
                 with col3:
                     st.markdown(f"CBD: {strain['cbd_percent']:.1f}%")
-                
+
                 with col4:
                     dom_terp = strain.get('dominant_terpene', 'N/A')
                     if dom_terp in TERPENE_INFO:
                         st.markdown(f"🌿 {TERPENE_INFO[dom_terp]['name']}")
-                
-                with st.expander("View Details"):
+
+                # Add spacing after columns before button
+                st.markdown("<div style='margin-top: 0.5rem;'></div>", unsafe_allow_html=True)
+
+                # Button to view details (avoiding nested expander issue)
+                if st.button("View Full Details", key=f"view_btn_{idx}_{strain['strain_name'].replace(' ', '_')}", use_container_width=True):
+                    st.session_state[f'show_details_{idx}'] = not st.session_state.get(f'show_details_{idx}', False)
+
+                # Show details if button was clicked
+                if st.session_state.get(f'show_details_{idx}', False):
                     strain['match_score'] = 0
                     render_strain_card(strain, 0)
+
+                # Add spacing between strain items
+                st.markdown("<div style='margin-bottom: 1rem;'></div>", unsafe_allow_html=True)
     
     # TAB 3: EDUCATION
     with tab_learn:
