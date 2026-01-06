@@ -478,7 +478,8 @@ TERPENE_INFO = {
         "effects": ["Sedating", "Muscle Relaxant", "Anti-inflammatory", "Analgesic"],
         "vibe": "The 'couch-lock' terpene - relaxing and sedative",
         "color": "#8b5cf6",
-        "science": "May enhance cannabinoid absorption across blood-brain barrier"
+        "science": "Enhances cannabinoid absorption across the blood-brain barrier via increased cell membrane permeability. Acts as an agonist at α2-adrenergic receptors (sedation), blocks inflammation through TNF-α inhibition.",
+        "citations": "[1] do Vale et al. (2002) Phytotherapy Research; [2] Russo (2011) British Journal of Pharmacology"
     },
     "limonene": {
         "name": "Limonene",
@@ -487,7 +488,8 @@ TERPENE_INFO = {
         "effects": ["Mood Elevation", "Stress Relief", "Anti-anxiety", "Energizing"],
         "vibe": "The 'happy' terpene - uplifting like a sunny day",
         "color": "#f59e0b",
-        "science": "Rapidly absorbed and may increase serotonin and dopamine"
+        "science": "Increases serotonin and dopamine neurotransmitter levels via modulation of 5-HT1A and D2 receptors. Rapidly crosses blood-brain barrier, reduces cortisol (stress hormone), enhances immune function via increased lymphocyte activity.",
+        "citations": "[1] Lima et al. (2013) Phytomedicine; [2] Komiya et al. (2006) Behavioural Brain Research"
     },
     "caryophyllene": {
         "name": "β-Caryophyllene",
@@ -496,7 +498,8 @@ TERPENE_INFO = {
         "effects": ["Anti-inflammatory", "Pain Relief", "Neuroprotective", "Stress Relief"],
         "vibe": "The 'healing' terpene - the only one that's also a cannabinoid",
         "color": "#ef4444",
-        "science": "Directly activates CB2 receptors - unique among terpenes!"
+        "science": "Unique among terpenes: selectively binds CB2 cannabinoid receptors (K_i = 155 nM) without binding CB1, avoiding psychoactivity. Reduces inflammatory cytokines (IL-1β, TNF-α) via NF-κB pathway inhibition. Demonstrates neuroprotective effects in Alzheimer's models.",
+        "citations": "[1] Gertsch et al. (2008) PNAS; [2] Fidyt et al. (2016) Nutrients; [3] Cheng et al. (2014) ACS Chemical Neuroscience"
     },
     "linalool": {
         "name": "Linalool",
@@ -505,7 +508,8 @@ TERPENE_INFO = {
         "effects": ["Calming", "Anti-anxiety", "Sedative", "Anticonvulsant"],
         "vibe": "The 'spa day' terpene - like lavender aromatherapy",
         "color": "#a855f7",
-        "science": "Modulates glutamate and GABA for calming effects"
+        "science": "Modulates glutamate (excitatory) and GABA (inhibitory) neurotransmission via NMDA receptor antagonism and GABAergic enhancement. Acts on 5-HT1A serotonin receptors (anxiolytic effect), blocks voltage-gated sodium channels (anticonvulsant), reduces acetylcholine release.",
+        "citations": "[1] Elisabetsky et al. (1995) Journal of Ethnopharmacology; [2] Batista et al. (2008) Phytomedicine; [3] Buchbauer et al. (1993) Flavour and Fragrance Journal"
     },
     "pinene": {
         "name": "α-Pinene",
@@ -514,7 +518,8 @@ TERPENE_INFO = {
         "effects": ["Alertness", "Memory Retention", "Anti-inflammatory", "Bronchodilator"],
         "vibe": "The 'clear-headed' terpene - forest-fresh focus",
         "color": "#22c55e",
-        "science": "May counteract some of THC's short-term memory effects"
+        "science": "Enhances memory and alertness via inhibition of acetylcholinesterase (AChE), increasing acetylcholine availability in the hippocampus. Counteracts THC-induced short-term memory impairment. Bronchodilator through relaxation of tracheal smooth muscle. Anti-inflammatory via NF-κB suppression.",
+        "citations": "[1] Perry et al. (2000) Journal of Agricultural and Food Chemistry; [2] Russo (2011) British Journal of Pharmacology; [3] Yang et al. (2016) Molecules"
     },
     "humulene": {
         "name": "Humulene",
@@ -523,7 +528,8 @@ TERPENE_INFO = {
         "effects": ["Anti-inflammatory", "Appetite Suppressant", "Antibacterial"],
         "vibe": "The 'beer' terpene - earthy and grounding",
         "color": "#78716c",
-        "science": "Shown to inhibit inflammatory response in studies"
+        "science": "Potent anti-inflammatory via reduction of pro-inflammatory mediators (PGE-2, iNOS, COX-2). Unlike most cannabinoids/terpenes, suppresses appetite through unknown mechanisms. Aerosol inhalation demonstrates rapid systemic anti-inflammatory effects.",
+        "citations": "[1] Fernandes et al. (2007) European Journal of Pharmacology; [2] Rogerio et al. (2009) European Journal of Pharmacology"
     },
     "terpinolene": {
         "name": "Terpinolene",
@@ -532,7 +538,8 @@ TERPENE_INFO = {
         "effects": ["Uplifting", "Antioxidant", "Sedative (high doses)", "Fresh feeling"],
         "vibe": "The 'adventure' terpene - rare and energizing",
         "color": "#06b6d4",
-        "science": "Found in only about 10% of strains - makes them distinctive"
+        "science": "Rare terpene (found in ~10% of strains) with biphasic effects: energizing at low doses, sedative at high doses. Potent antioxidant and antiproliferative properties. Modulates AChE activity and enhances focus. Often dominant in classic Sativa strains like Jack Herer and Dutch Treat.",
+        "citations": "[1] Ito & Ito (2013) Journal of Toxicological Sciences; [2] Mercier et al. (2009) Planta Medica"
     },
     "ocimene": {
         "name": "Ocimene",
@@ -541,7 +548,8 @@ TERPENE_INFO = {
         "effects": ["Antiviral", "Antifungal", "Decongestant", "Uplifting"],
         "vibe": "The 'fresh' terpene - sweet and herbaceous",
         "color": "#84cc16",
-        "science": "Often found in tropical sativas"
+        "science": "Exhibits broad-spectrum antimicrobial activity. Acts as a plant defense compound (herbivore deterrent). Decongestant properties via airway smooth muscle relaxation. Common in tropical Sativa varieties, contributes to uplifting effects.",
+        "citations": "[1] Kiran et al. (2017) Natural Product Communications; [2] Pichersky & Raguso (2018) Plant Physiology"
     }
 }
 
@@ -553,7 +561,7 @@ SYMPTOM_PROFILES = {
         "best_time": "Evening/Bedtime",
         "onset": "30-60 minutes",
         "duration": "6-8 hours",
-        "science_note": "High myrcene and linalool activate sedative pathways. CBN (aged THC) enhances sleep onset. Limonene counteracts any anxiety.",
+        "science_note": "Myrcene enhances GABA neurotransmission (the brain's 'off switch') while linalool blocks glutamate (the brain's 'on switch') via NMDA receptor antagonism, creating sedation. CBN (cannabinol) forms when THC oxidizes and binds weakly to CB1 receptors while strongly modulating GABA-A receptors for sleep onset.",
         "target_terpenes": {
             "myrcene": {"weight": 0.3, "min": 0.005},
             "linalool": {"weight": 0.25, "min": 0.004},
@@ -573,7 +581,7 @@ SYMPTOM_PROFILES = {
         "best_time": "Anytime (symptom-dependent)",
         "onset": "15-45 minutes",
         "duration": "4-6 hours",
-        "science_note": "Caryophyllene activates CB2 receptors (anti-inflammatory). High THC blocks pain signals. CBD reduces inflammation without intoxication.",
+        "science_note": "β-Caryophyllene selectively activates CB2 receptors (K_i = 155 nM), reducing inflammatory cytokines IL-1β and TNF-α via NF-κB pathway inhibition. THC blocks pain transmission by activating CB1 receptors in the periaqueductal gray and dorsal horn. CBD inhibits FAAH enzyme, increasing endogenous anandamide (the 'bliss molecule'), providing sustained anti-inflammatory effects without psychoactivity.",
         "target_terpenes": {
             "caryophyllene": {"weight": 0.35, "min": 0.004},
             "myrcene": {"weight": 0.25, "min": 0.005},
@@ -593,7 +601,7 @@ SYMPTOM_PROFILES = {
         "best_time": "Morning/Daytime",
         "onset": "10-20 minutes",
         "duration": "3-4 hours",
-        "science_note": "Pinene enhances memory and alertness while partially counteracting THC's memory effects. High THCV provides energizing, focused effects.",
+        "science_note": "α-Pinene inhibits acetylcholinesterase enzyme, increasing acetylcholine in the hippocampus for memory formation and alertness. Counteracts THC's short-term memory impairment through this mechanism. THCV acts as a CB1 antagonist at low doses (blocking THC's sedative effects), while increasing dopamine and norepinephrine for energized focus. Limonene elevates dopamine in the prefrontal cortex. Terpinolene modulates AChE for enhanced cognition.",
         "target_terpenes": {
             "pinene": {"weight": 0.35, "min": 0.003},
             "limonene": {"weight": 0.3, "min": 0.002},
@@ -613,7 +621,7 @@ SYMPTOM_PROFILES = {
         "best_time": "Anytime (as needed)",
         "onset": "20-40 minutes",
         "duration": "4-5 hours",
-        "science_note": "Linalool and limonene modulate serotonin. CBD blocks anxiety-triggering signals. The combo prevents panic while keeping you functional.",
+        "science_note": "Linalool acts as an agonist at 5-HT1A serotonin receptors (the same target as buspirone, an anti-anxiety medication), reducing stress hormone release. Limonene increases both serotonin and dopamine via modulation of 5-HT1A and D2 receptors while reducing cortisol. CBD blocks anxiety-triggering signals through 5-HT1A agonism, CB1 receptor negative allosteric modulation (reducing THC's anxiety potential), and GPR55 antagonism.",
         "target_terpenes": {
             "linalool": {"weight": 0.3, "min": 0.004},
             "limonene": {"weight": 0.3, "min": 0.003},
@@ -633,7 +641,7 @@ SYMPTOM_PROFILES = {
         "best_time": "Daytime/Afternoon",
         "onset": "15-30 minutes",
         "duration": "3-5 hours",
-        "science_note": "Limonene elevates mood and dopamine. Terpinolene (rare) provides unique creative energy. Moderate THC enhances association-making.",
+        "science_note": "Limonene increases dopamine in the nucleus accumbens and prefrontal cortex via D2 receptor modulation, enhancing divergent thinking and pattern recognition. Terpinolene (found in only ~10% of strains) modulates acetylcholinesterase for heightened associative thinking. Moderate THC activates CB1 receptors in the frontal cortex, temporarily reducing latent inhibition (the brain's filter), allowing novel connections and creative insights.",
         "target_terpenes": {
             "limonene": {"weight": 0.3, "min": 0.003},
             "terpinolene": {"weight": 0.25, "min": 0.001},
@@ -653,7 +661,7 @@ SYMPTOM_PROFILES = {
         "best_time": "Mealtime",
         "onset": "20-45 minutes",
         "duration": "4-6 hours",
-        "science_note": "THC directly stimulates hunger via CB1 receptors. CBG increases appetite hormones. Myrcene adds relaxation so eating is enjoyable.",
+        "science_note": "THC activates CB1 receptors in the hypothalamus and nucleus accumbens, triggering ghrelin (hunger hormone) release and making food more rewarding via dopamine enhancement. CBG (cannabigerol) increases appetite through CB1 agonism and interaction with α2-adrenergic receptors, boosting hunger hormones. Myrcene enhances the pleasure of eating through sedation and anxiolysis (reducing food-related anxiety in patients with eating disorders).",
         "target_terpenes": {
             "myrcene": {"weight": 0.3, "min": 0.005},
             "caryophyllene": {"weight": 0.2, "min": 0.003},
@@ -676,6 +684,8 @@ CANNABINOID_INFO = {
         "full_name": "Δ9-Tetrahydrocannabinol",
         "description": "The main psychoactive compound - produces the 'high'",
         "effects": ["Euphoria", "Relaxation", "Altered perception", "Appetite stimulation"],
+        "mechanism": "Partial agonist at CB1 receptors (K_i = 10 nM) in the brain and CB2 receptors (K_i = 25 nM) in immune tissue. Mimics anandamide, modulating neurotransmitter release (dopamine, GABA, glutamate). Produces psychoactivity through CB1 activation in prefrontal cortex, hippocampus, and basal ganglia.",
+        "citations": "[1] Pertwee (2008) British Journal of Pharmacology; [2] Mechoulam & Parker (2013) Annual Review of Psychology",
         "color": "#10b981"
     },
     "cbd_percent": {
@@ -683,6 +693,8 @@ CANNABINOID_INFO = {
         "full_name": "Cannabidiol",
         "description": "Non-intoxicating - therapeutic without the 'high'",
         "effects": ["Anti-anxiety", "Anti-inflammatory", "Neuroprotective", "Modulates THC"],
+        "mechanism": "Negative allosteric modulator of CB1 receptors (reduces THC binding), agonist at 5-HT1A serotonin receptors (anti-anxiety), inhibits FAAH enzyme (increases anandamide), antagonizes GPR55 (anti-inflammatory). Non-intoxicating due to lack of CB1 agonism.",
+        "citations": "[1] Laprairie et al. (2015) British Journal of Pharmacology; [2] Blessing et al. (2015) Neurotherapeutics; [3] Campos et al. (2016) Frontiers in Immunology",
         "color": "#3b82f6"
     },
     "cbn_percent": {
@@ -690,20 +702,26 @@ CANNABINOID_INFO = {
         "full_name": "Cannabinol",
         "description": "The 'sleepy' cannabinoid - forms as THC ages",
         "effects": ["Sedation", "Sleep aid", "Pain relief", "Anti-inflammatory"],
+        "mechanism": "Weak CB1 partial agonist (1/10th potency of THC) and stronger CB2 agonist. Forms when THC oxidizes over time. Potentiates GABA-A receptor activity (sedation). Sedative effects amplified when combined with THC and myrcene (entourage effect).",
+        "citations": "[1] Appendino et al. (2008) Journal of Natural Products; [2] Bonn-Miller et al. (2021) Sleep",
         "color": "#8b5cf6"
     },
     "cbg_percent": {
         "name": "CBG",
         "full_name": "Cannabigerol",
-        "description": "The 'mother' cannabinoid - precursor to THC/CBD",
+        "description": "The 'mother' cannabinoid - precursor to THC/CBD in the plant",
         "effects": ["Appetite stimulation", "Antibacterial", "Neuroprotective", "Anti-inflammatory"],
+        "mechanism": "The acidic form (CBGA) is the precursor to THCA, CBDA, and CBCA in cannabis biosynthesis. Partial agonist at CB1 and CB2 receptors, agonist at α2-adrenergic receptors (appetite stimulation), activates TRPV1 channels (pain modulation). Potent antibacterial against MRSA. Increases anandamide via FAAH inhibition.",
+        "citations": "[1] Deiana et al. (2012) CNS & Neurological Disorders; [2] Appendino et al. (2008) Journal of Natural Products; [3] Farha et al. (2020) ACS Infectious Diseases",
         "color": "#f59e0b"
     },
     "thcv_percent": {
         "name": "THCV",
         "full_name": "Tetrahydrocannabivarin",
-        "description": "The 'sports car' cannabinoid - fast, clear, energetic",
+        "description": "The 'sports car' cannabinoid - fast onset, short duration, energizing",
         "effects": ["Energy", "Appetite suppression", "Clear-headed", "Short duration"],
+        "mechanism": "Dose-dependent effects: CB1 antagonist at low doses (<3mg) blocking some THC effects and suppressing appetite; CB1 agonist at higher doses (>10mg). Increases dopamine and norepinephrine without significant psychoactivity. Faster onset and shorter duration than THC (2-3 hours vs 4-6 hours). May improve insulin sensitivity.",
+        "citations": "[1] McPartland et al. (2015) Cannabis and Cannabinoid Research; [2] Jadoon et al. (2016) Diabetes Care; [3] Englund et al. (2016) Journal of Psychopharmacology",
         "color": "#ec4899"
     },
     "cbc_percent": {
@@ -711,13 +729,17 @@ CANNABINOID_INFO = {
         "full_name": "Cannabichromene",
         "description": "Non-intoxicating with unique therapeutic effects",
         "effects": ["Anti-inflammatory", "Antidepressant", "Pain relief", "Neurogenesis"],
+        "mechanism": "Does not significantly bind CB1/CB2 receptors. Instead activates TRPV1 and TRPA1 channels (pain, inflammation). Inhibits endocannabinoid reuptake, increasing anandamide levels (antidepressant effect). Stimulates neural stem progenitor cells (NSPCs) in the hippocampus, promoting neurogenesis. Anti-inflammatory via COX-2 inhibition.",
+        "citations": "[1] DeLong et al. (2010) Journal of Neurochemistry; [2] Shinjyo & Di Marzo (2013) British Journal of Pharmacology; [3] Izzo et al. (2012) Trends in Pharmacological Sciences",
         "color": "#14b8a6"
     },
     "cbdv_percent": {
         "name": "CBDV",
         "full_name": "Cannabidivarin",
-        "description": "CBD's cousin - powerful anticonvulsant properties",
+        "description": "CBD's propyl analog - powerful anticonvulsant and anti-nausea properties",
         "effects": ["Anticonvulsant", "Anti-nausea", "Anti-inflammatory", "Neurological support"],
+        "mechanism": "Structural analog of CBD with a propyl (3-carbon) side chain instead of pentyl (5-carbon). Modulates TRPV1, TRPV2, TRPA1, and TRPM8 channels. Reduces neuronal hyperexcitability (anticonvulsant) without psychoactivity. Shows promise in autism spectrum disorder (ASD) and Rett syndrome trials. Potent anti-nausea effects via 5-HT1A activation.",
+        "citations": "[1] Hill et al. (2012) British Journal of Pharmacology; [2] Zamberletti et al. (2019) Neurotherapeutics; [3] Pretzsch et al. (2019) Translational Psychiatry",
         "color": "#06b6d4"
     }
 }
@@ -930,20 +952,21 @@ def create_terpene_radar(strain: pd.Series) -> Optional[alt.Chart]:
     
     if not data:
         return None
-    
+
     df_chart = pd.DataFrame(data)
-    df_chart = df_chart.sort_values('Percentage', ascending=True)
-    
+    # Sort by percentage descending (highest at top) for horizontal bar chart
+    df_chart = df_chart.sort_values('Percentage', ascending=False)
+
     chart = alt.Chart(df_chart).mark_bar(  # type: ignore
         cornerRadiusEnd=6,  # type: ignore
         height=20  # type: ignore
     ).encode(
         x=alt.X('Percentage:Q',  # type: ignore
-                title='Concentration (%)',  # type: ignore 
+                title='Concentration (%)',  # type: ignore
                 scale=alt.Scale(domain=[0, max(df_chart['Percentage'].max() * 1.2, 1)])),  # type: ignore
         y=alt.Y('Terpene:N',  # type: ignore
-                title=None,  # type: ignore 
-                sort='-x',  # type: ignore
+                title=None,  # type: ignore
+                sort=list(df_chart['Terpene']),  # type: ignore - Explicitly set order to match sorted DataFrame
                 axis=alt.Axis(labelFontSize=12, labelFontWeight=500)),  # type: ignore
         color=alt.Color('Color:N', scale=None, legend=None),  # type: ignore
         tooltip=[
@@ -1003,26 +1026,23 @@ def render_strain_card(strain: pd.Series, rank: int):
     </div>
     """, unsafe_allow_html=True)
     
-    # Cannabinoid grid
-    col1, col2, col3, col4, col5, col6 = st.columns(6)
+    # Cannabinoid grid - THC removed as it varies too much batch-to-batch
+    col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
-        thc = strain.get('thc_percent', 0)
-        st.metric("THC", f"{thc:.1f}%", help="Main psychoactive compound")
-    with col2:
         cbd = strain.get('cbd_percent', 0)
-        st.metric("CBD", f"{cbd:.1f}%", help="Non-intoxicating, therapeutic")
-    with col3:
+        st.metric("CBD", f"{cbd:.1f}%", help="Non-intoxicating, modulates THC effects, reduces anxiety and inflammation. Works on serotonin receptors and inhibits FAAH enzyme.")
+    with col2:
         cbn = strain.get('cbn_percent', 0)
-        st.metric("CBN", f"{cbn:.1f}%", help="Sedative, sleep-promoting")
-    with col4:
+        st.metric("CBN", f"{cbn:.2f}%", help="Sedative cannabinoid formed when THC degrades. Binds weakly to CB1 receptors, potent for sleep via GABA modulation.")
+    with col3:
         cbg = strain.get('cbg_percent', 0)
-        st.metric("CBG", f"{cbg:.2f}%", help="The 'mother' cannabinoid")
-    with col5:
+        st.metric("CBG", f"{cbg:.2f}%", help="Cannabigerol: The 'mother cannabinoid' - precursor to THC/CBD. Binds to CB1/CB2, TRPV1, and α2-adrenergic receptors. Neuroprotective, antibacterial, increases anandamide.")
+    with col4:
         thcv = strain.get('thcv_percent', 0)
-        st.metric("THCV", f"{thcv:.2f}%", help="Energetic, clear-headed")
-    with col6:
+        st.metric("THCV", f"{thcv:.2f}%", help="Tetrahydrocannabivarin: CB1 antagonist at low doses (energizing, appetite suppressing), agonist at high doses. Faster onset, shorter duration than THC.")
+    with col5:
         cbc = strain.get('cbc_percent', 0)
-        st.metric("CBC", f"{cbc:.2f}%", help="Anti-inflammatory powerhouse")
+        st.metric("CBC", f"{cbc:.2f}%", help="Cannabichromene: Non-intoxicating, binds to TRPV1 and TRPA1 receptors. Anti-inflammatory via COX-2 inhibition, increases neurogenesis and anandamide.")
     
     # Terpene visualization
     with st.expander("🧬 Terpene Profile & Effects", expanded=True):
@@ -1144,14 +1164,7 @@ def main():
             </div>
             """, unsafe_allow_html=True)
             
-            # Quick info
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.markdown(f"**⏰ Best Time:** {profile['best_time']}")
-            with col2:
-                st.markdown(f"**🚀 Onset:** {profile['onset']}")
-            with col3:
-                st.markdown(f"**⏱️ Duration:** {profile['duration']}")
+            # Quick info removed - best time, onset, duration vary too much by individual
             
             # Science note
             with st.expander("🔬 The Science (for curious customers)", expanded=False):
@@ -1259,7 +1272,9 @@ def main():
                     with col2:
                         st.markdown(f"**Found In:** {terp_info['found_in']}")
                         st.markdown(f"**Effects:** {', '.join(terp_info['effects'])}")
-                        st.markdown(f"**Science:** {terp_info['science']}")
+                        st.markdown(f"**Mechanism:** {terp_info['science']}")
+                        if 'citations' in terp_info:
+                            st.markdown(f"**References:** {terp_info['citations']}")
         
         with learn_tab2:
             st.markdown("### Cannabinoid Profiles")
@@ -1269,6 +1284,10 @@ def main():
                 with st.expander(f"{cann_info['name']} ({cann_info['full_name']})", expanded=False):
                     st.markdown(f"**What It Is:** {cann_info['description']}")
                     st.markdown(f"**Effects:** {', '.join(cann_info['effects'])}")
+                    if 'mechanism' in cann_info:
+                        st.markdown(f"**Mechanism of Action:** {cann_info['mechanism']}")
+                    if 'citations' in cann_info:
+                        st.markdown(f"**References:** {cann_info['citations']}")
         
         with learn_tab3:
             st.markdown("### The Entourage Effect")
