@@ -12,3 +12,6 @@ enableXsrfProtection = true
 
 [browser]
 gatherUsageStats = false
+
+[python]
+version = "3.10"
